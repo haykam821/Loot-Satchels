@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "lootsatchels",
+	"version": "${version}",
+
+	"name": "Loot Satchels",
+	"description": "Adds a bag that gives the holder items from a loot table when used.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Loot-Satchels#readme",
+		"issues": "https://github.com/haykam821/Loot-Satchels/issues"
+	},
+
+	"license": "MIT",
+	"icon": "assets/lootsatchels/icon.png",
+
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.lootsatchels.Main"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*"
+	}
+}
